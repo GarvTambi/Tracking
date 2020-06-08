@@ -1,4 +1,4 @@
-# Short Distance Tracking
+# Optimal Tracking
 
 To achieve this goal I used Repast J software to build an agent simulation. I implemented several 
 types of delivery drivers to compare different AI algorithms’ performance.
