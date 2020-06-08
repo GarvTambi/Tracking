@@ -1,0 +1,36 @@
+<history configuration="config\jaipur.xml">
+<agents>
+<agent name="deliberative-bfs">
+<vehicle name="Vehicle 1"/>
+</agent>
+</agents>
+<rounds>
+<round id="1">
+<tasks>
+<task id="0" pickup="Jamdoli" delivery="GaltaGate" weight="3" reward="36797"/>
+<task id="1" pickup="Gopalpura" delivery="MIRoad" weight="3" reward="40875"/>
+<task id="2" pickup="MIRoad" delivery="GaltaGate" weight="3" reward="59223"/>
+<task id="3" pickup="VaishaliNagar" delivery="RajaPark" weight="3" reward="59223"/>
+<task id="4" pickup="Ramganj" delivery="RajaPark" weight="3" reward="18448"/>
+<task id="5" pickup="MIRoad" delivery="VaishaliNagar" weight="3" reward="46991"/>
+<task id="6" pickup="JantaColony" delivery="VaishaliNagar" weight="3" reward="69417"/>
+</tasks>
+<events>
+<event id="0" time="0" vehicle="Vehicle 1" pickup="4"/>
+<event id="1" time="299999996" vehicle="Vehicle 1" move="Jagatpura"/>
+<event id="2" time="1411111061" vehicle="Vehicle 1" move="Jhotwara"/>
+<event id="3" time="1966666596" vehicle="Vehicle 1" move="Jamdoli"/>
+<event id="4" time="3188888767" vehicle="Vehicle 1" move="JantaColony"/>
+</events>
+</round>
+</rounds>
+<statistics>
+<stat rank="1" agent="deliberative-bfs">
+<total-tasks value="7"/>
+<total-distance value="350.0"/>
+<total-cost value="1750"/>
+<total-reward value="0"/>
+<total-profit value="-1750"/>
+</stat>
+</statistics>
+</history>
