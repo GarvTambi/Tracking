@@ -1,0 +1,35 @@
+<topology name="switzerland">
+<!--  the list of cities in the topology  -->
+<cities>
+<city x="26.922308" y="75.829958" name="Ramganj"/>
+<city x="26.920619" y="75.848602" name="GaltaGate"/>
+<city x="26.916280" y="75.819253" name="MIRoad"/>
+<city x="26.905480" y="75.842989" name="TransportNagar"/>
+<city x="26.944081" y="75.757080" name="Jhotwara"/>
+<city x="26.901479" y="75.736384" name="VaishaliNagar"/>
+<city x="26.827706" y="75.845927" name="Jagatpura"/>
+<city x="26.866452" y="75.796879" name="Gopalpura"/>
+<city x="26.915367" y="75.914563" name="Jamdoli"/>
+<city x="26.904550" y="75.833262" name="JantaColony"/>
+<city x="26.893361" y="75.830042" name="RajaPark"/>
+<city x="27.029594" y="75.886098" name="Kukas"/>
+</cities>
+<!--  the list of routes in the topology  -->
+<routes>
+<route distance="2.2" from="Ramganj" to="GaltaGate"/>
+<route distance="2.9" from="MIRoad" to="Ramganj"/>
+<route distance="3.2" from="TransportNagar" to="Ramganj"/>
+<route distance="16.2" from="Jagatpura" to="Ramganj"/>
+<route distance="23.5" from="Jagatpura" to="Jhotwara"/>
+<route distance="17.5" from="MIRoad" to="Kukas"/>
+<route distance="15.7" from="TransportNagar" to="Jhotwara"/>
+<route distance="26.1" from="VaishaliNagar" to="Jhotwara"/>
+<route distance="15.1" from="Gopalpura" to="Jamdoli"/>
+<route distance="8.2" from="Gopalpura" to="JantaColony"/>
+<route distance="18.4" from="Jhotwara" to="Jamdoli"/>
+<route distance="7.0" from="JantaColony" to="Jamdoli"/>
+<route distance="7.2" from="RajaPark" to="Gopalpura"/>
+<route distance="24.0" from="Kukas" to="Jhotwara"/>
+<route distance="6.7" from="VaishaliNagar" to="Gopalpura"/>
+</routes>
+</topology>
